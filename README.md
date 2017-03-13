@@ -31,7 +31,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+A challenge I had was being able to 'override' the default setting for the tip percentage. Once the user set the default value, the user cannot change the percentages in the main tip view controller to one of the other values. This was fixed by creating a conditional statement to check whether or not the user has chosen a value in the main tip view controller. If the selectedSegmentIndex has a value greater than zero, a new value is set using that index value.
 
 ## License
 
